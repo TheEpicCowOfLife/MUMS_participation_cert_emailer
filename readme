@@ -1,9 +1,11 @@
 This is a tool I hacked together in 2021 to automate the generation of participation certificates, and email them out. Suddenly I realise that I'd may like to use this in future years. Happy maintenence, future committees. 
 
 
-IDK, you have to install a lot of stuff, and maybe the console commands only work on linux, who knows.
+Installation:
 
-Need to install and add latexmk to path
+Make a copy of example_settings.py and name it settings.py
+
+You Need to install and add latexmk to path
 
 Need to add gmail api stuff, install these python modules i guess? 
  pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
