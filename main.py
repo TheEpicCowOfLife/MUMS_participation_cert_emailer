@@ -27,7 +27,7 @@ def make_attachment(student, school):
     
     os.system(f'latexmk -pdf -quiet "rendering/{file_title}.tex"')
     os.system(f'latexmk -c "{file_title}.pdf"')    
-    os.system(f'mv "{file_title}.pdf" attachments')
+    os.replace(f"{file_title}.pdf", f"attachments/{file_title}.pdf")
     return file_title
 
 service = gmail_authenticate()
