@@ -1,3 +1,6 @@
+This is a tool I hacked together in 2021 to automate the generation of participation certificates, and email them out. Suddenly I realise that I'd may like to use this in future years. Happy maintenence, future committees. 
+
+
 IDK, you have to install a lot of stuff, and maybe the console commands only work on linux, who knows.
 
 Need to install and add latexmk to path
