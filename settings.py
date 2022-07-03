@@ -1,4 +1,4 @@
-# Input CSV, see example.csv to see 
+# Input CSV, see example.csv to see what each field is. The first field is the team number.
 input_csv_path = "csv/example.csv"
 
 sender_email = 'quango@student.unimelb.edu.au'
