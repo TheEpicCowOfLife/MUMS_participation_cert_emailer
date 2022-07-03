@@ -1,3 +1,4 @@
 *.pickle
 *.json
 __pycache__
+settings.py
