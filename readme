@@ -1,0 +1,19 @@
+IDK, you have to install a lot of stuff, and maybe the console commands only work on linux, who knows.
+
+Need to install and add latexmk to path
+
+Need to add gmail api stuff, install these python modules i guess? 
+ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+(Sourced from https://developers.google.com/gmail/api/quickstart/python)
+
+Install jinja2
+ pip install jinja2
+or smth
+
+Create a desktop OAuth Client ID
+https://developers.google.com/workspace/guides/create-credentials#oauth-client-id
+Download as json, and rename to credentials.json
+
+SHould be good to go?
+
+Otherwise go scream at Quang for help
