@@ -1,0 +1,43 @@
+\documentclass{article}
+\usepackage[a5paper, landscape, margin=2 cm]{geometry}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage{tgbonum}
+\usepackage{setspace}
+
+\pagenumbering{gobble}
+
+\begin{document}
+
+%\setlength{\baselineskip}{10mm}
+
+\tikz[remember picture,overlay] \node[opacity=1,inner sep=0pt] at (current page.center){\includegraphics[width=\paperwidth,height=\paperheight]{Certificate Participation bg.png}};
+
+\centering
+    \setlength{\baselineskip}{13mm}
+    \includegraphics[width=5 cm]{mumslogo.png}\\
+    {\fontfamily{ptm}\selectfont
+    {\Huge\textit{Certificate of Participation}}\\
+    {\Large This is presented to }\\
+    \setlength{\baselineskip}{5mm}
+    \huge{\underline {\VAR{name}}} \\
+    %\Large {team} \huge\underline{name}
+    {\Large from}
+    {\huge\underline {\VAR{school}}}\\
+    {\Large for participating in}
+
+    \vspace{-5pt}
+
+    {
+    \setstretch{1.5} \huge {Schools Maths Olympics 2021}
+    
+    \vspace{-15pt}
+    
+     \Large organised by Melbourne University Maths and Stats Society.
+    }
+    }
+    %{\setstretch{0.5}
+    %\huge Schools Maths Olympics 2021.}
+
+\end{document}
